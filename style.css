@@ -11,6 +11,7 @@ body {
 .search-box >input {
     margin: 0;
     padding: 2px;
+    vertical-align: top;
 }
 .search-box >button {
     margin: 0;
