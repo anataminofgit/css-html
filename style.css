@@ -8,14 +8,36 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.search-box >input {
+.search-box>input {
     margin: 0;
     padding: 2px;
     vertical-align: top;
 }
-.search-box >button {
+
+.search-box>button {
     margin: 0;
     padding: 0;
-    border:0;
+    border: 0;
 }
 
+.header {
+    height: 105px;
+    width: 100%;
+    background-color: #bcbcbc;
+    border: solid;
+}
+
+.header >.inside-header {
+    width: 900px;
+    border: solid;
+    margin: auto;
+}
+
+.header-row-search{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.header-row-search>.col{
+margin-right: 10px;
+}
