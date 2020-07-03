@@ -41,6 +41,7 @@ h3 {
     height: 105px;
     width: 100%;
     background-color: #bcbcbc;
+    background-image: linear-gradient(to bottom, #909090, #969696, #9d9d9d, #a3a3a3, #aaaaaa);
 }
 
 /* first row in main */
@@ -111,8 +112,8 @@ h3 {
     display: block;
     padding: 0 10px 0 10px;
     color: white;
-    background-color: #bcbcbc;
-    word-wrap: unset;
+    background-color: rgb(165,165,165);
+    /* word-wrap: unset; */
     font-size: 15px;
 }
 
