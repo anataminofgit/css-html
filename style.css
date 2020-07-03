@@ -139,11 +139,7 @@ h3 {
     margin: 0 5px 10px 5px;
     font-size: 14px;
     font-weight: bold;
-    /* vertical-align: top; */
-    /* text-decoration: underline; */
     border-bottom: 1px solid lightgray;
-    0 0FONT-WEIGHT: 100;
-    0 0 10pxFONT-VARIANT: JIS04;
 }
 
 .caption>button {
@@ -180,38 +176,35 @@ button>a>img.hover-no:hover {
     display: none;
 }
 
-section>.caption {
-    display: flex;
-    justify-content: flex-end;
-    /* margin-left: 20px; */
-}
-
-main>.row {
-    margin: 30px 1px 10px 1px;
-    display: flex;
-    justify-content: space-between;
-}
-
-main>.row:last-child>.col:last-child>.row {
-    display: flex;
-}
-
 section {
     width: 291px;
 }
 
-.row:last-child>section {
+section>.caption {
+    display: flex;
+    justify-content: flex-end;
+}
+
+main .row-1{
+    margin: 30px 1px 30px 1px;
+}
+
+main .row-2{
+    margin: 30px 1px 80px 1px;
     height: 216px;
+
 }
 
-row> {
+main >.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.row-2>.col:last-child>.row {
     display: flex;
 }
 
-col {
-    display: flex;
-    flex-direction: column;
-}
 
 .row:last-child section {
     padding: 20px;
@@ -220,7 +213,7 @@ col {
     right: 100%;
     bottom: 10%;
     height: 226px;
-    background-image: linear-gradient(to bottom, #fbfbfc, #e9edf0, #d5dfe0, #c6d1cc, #bec2b6);
+    background-image: linear-gradient(to bottom, #ffffff, #fafafa, #f5f5f5, #f1f1f1, #ececec);
 }
 
 .footer-links {
@@ -231,36 +224,38 @@ col {
 .footer-links>a {
     color: white;
     text-decoration: none;
-    border-left: white 1px solid;
+    border-left: white 2px solid;
     margin: 20px 0 5px 0;
-    padding: 0 5px 0 5px;
+    padding: 0 2px 0 5px;
     display: inline-block;
 }
 
-.footer-links>a:last-child{
-    color:red;
-    border:0;
+.footer-links>a:last-child {
+    color: red;
+    border: 0;
 }
+
 .footer-links>a:last-child {
     border: left 0;
 }
 
-/* .row:last-child > .col:last-child > .caption {
-    display:flex;
-    flex-direction: column;
-} */
 
-.row {
+.row-2>.col:last-child .row {
     display: flex;
     justify-content: space-between;
 }
 
-.col {
+.row-2>.col:last-child .col {
     display: flex;
     flex-direction: column;
 }
 
 footer {
     background-color: gray;
-    height: 50px;
+    height: 48px;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    right:0;
+    z-index: 2;
 }
