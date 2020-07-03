@@ -326,7 +326,8 @@ footer {
 
 .contact {
     display: flex;
-    margin: 32px;
+    margin: 32px 0 0 0;
+    justify-content: space-between;
 }
 
 .contact>.col:nth-child(1) {
@@ -342,6 +343,9 @@ footer {
 .contact>.col:nth-child(3) {
     width: 292px;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #contact-btn {
@@ -367,17 +371,22 @@ footer {
     color: gray;
     font-size: 16px;
     display: block;
-    border-bottom: gray;
+    /* border-bottom: gray; */
+    border-bottom: gray solid 1px;
+    padding-bottom: 10px;
 }
 
 .contact section {
     padding: 20px;
     border-radius: 0 8% 0 0;
     border: solid 1px #bec2b6;
-    height: 377px;
     background-image: linear-gradient(to bottom, #ffffff, #fafafa, #f5f5f5, #f1f1f1, #ececec);
     width: 100%;
 }
+.contact section.middle{
+    height: 377px;
+}
+
 
 .contact p , .contact label{
     font-size: 12px;
@@ -410,4 +419,12 @@ form .row {
     float: left;
     color: white;
     font-size: 14px;
+}
+
+.contact section.left-up{
+    margin-top:45px;
+}
+
+.contact section.left-bottom{
+    margin-top: 0;
 }
