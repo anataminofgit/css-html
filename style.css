@@ -259,27 +259,26 @@ ul>li>a:hover, div.dropdown-content>a:hover {
     font-size: 13px;
     margin: auto auto auto 3px;
 }
+
 .more-yellow>a {
     color: black;
     font-size: 13px;
     margin: auto auto auto 3px;
 }
 
-
 .more .pic-more {
     background-image: url('./images/read_more_white.png');
     height: 9px;
     width: 8px;
-    margin-top:3px;
+    margin-top: 3px;
 }
 
 .more-yellow .pic-more {
     background-image: url('./images/read_more_yellow.png');
     height: 9px;
     width: 8px;
-    margin-top:3px;
+    margin-top: 3px;
 }
-
 
 .more:hover .pic-more {
     background-image: url('./images/read_more_blue.png');
@@ -292,11 +291,12 @@ ul>li>a:hover, div.dropdown-content>a:hover {
 .more:hover a {
     color: blue;
 }
+
 .more-yellow:hover a {
     color: blue;
 }
 
-.more , .more-yellow {
+.more, .more-yellow {
     display: flex;
     justify-content: flex-end;
     justify-items: end;
@@ -330,10 +330,9 @@ footer {
     display: inline-block;
 }
 
-.footer-links>a:hover{
+.footer-links>a:hover {
     color: blue;
     text-decoration: underline;
-
 }
 
 .footer-links>a:last-child {
@@ -378,8 +377,8 @@ footer {
 
 .sidebar-btn {
     background-image: url('./images/side_menu_sprite');
-
 }
+
 .sidebar-btn a {
     color: black;
     text-decoration: none;
@@ -458,11 +457,28 @@ form .row {
     font-size: 14px;
 }
 
-.contact section.left-bottom a , .contact section.left-bottom  {
+.contact section.left-bottom a, .contact section.left-bottom {
     font-size: 12px;
-
 }
 
 section.left-up, section.left-bottom {
     height: 175px;
 }
+
+
+
+.error {
+    color: red;
+    display: none;
+  }
+  
+  /* input:invalid form > div:nth-child(4) > div.col-label > div{
+    border-color:  purple;
+    outline-color: purple;
+    border: 1px solid;
+
+  } */
+
+  input:invalid input::after{
+    content: "mistake";
+  }

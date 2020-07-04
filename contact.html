@@ -103,9 +103,7 @@
                     </p>
                     <h1 class="title">צור קשר</h1>
                 </div>
-                <div class="col-3">
-
-                </div>
+                <div class="col-3"></div>
             </div>
 
             <div class="row second-row">
@@ -121,35 +119,42 @@
                             <div class="row">
                                 <div class="col-label">
                                     <label for="fname">* שם פרטי: </label>
+                                    <div class="error">שדה חובה</div>
                                 </div>
                                 <div class="col-input">
-                                    <input id="fname" type="text"  maxlength="50"
+                                    <input required id="fname" type="text"  maxlength="50"
                                         name="fname">
+                                    
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-label">
+                                    <div class="error">שדה חובה</div>
                                     <label for="lname">* שם משפחה</label>
                                 </div>
                                 <div class="col-input">
-                                    <input id="lname" type="text" maxlength="50"
+                                    <input required id="lname" type="text" maxlength="50"
                                         name="lname">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-label">
                                     <label for="phone">* טלפון</label>
+                                    <div class="error">שדה חובה</div>
+
                                 </div>
                                 <div class="col-input">
-                                    <input id="phone" type="text" maxlength="50"
+                                    <input required id="phone" type="tel" maxlength="50"
                                         name="phone">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-label">
                                     <label for="email">* E-mail</label>
+                                    <div class="error">שדה חובה</div>
+
                                 </div>
-                                <div class="col-input">
+                                <div required class="col-input">
                                     <input id="email" type="email" maxlength="50"
                                         name="fname">
                                 </div>
@@ -157,7 +162,7 @@
                             <div class="row">
                                 <textarea id="form-textarea" cols="30" rows="10"></textarea>
                             </div>
-                            <button id="send">שלח</button>
+                            <button type="button" id="send">שלח</button>
                         </form>
                     </section>
                 </div>
@@ -197,5 +202,4 @@
         </div>
     </footer>
 </body>
-
 </html>
