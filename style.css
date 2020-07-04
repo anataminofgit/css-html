@@ -358,6 +358,16 @@ footer {
     border-top: 1px #F5F5F5 solid;
 }
 
+#contact-btn a {
+    color: black;
+    text-decoration: none;
+}
+
+#contact-btn:hover a {
+    color: blue;
+    text-decoration: underline;
+}
+
 .contact .col {
     padding: 0 20px;
 }
