@@ -264,7 +264,6 @@ ul>li>a:hover, div.dropdown-content>a:hover {
     background-image: url('./images/read_more_white.png');
     height: 9px;
     width: 8px;
-    opacity: 0.5;
 }
 
 .more:hover .pic-more {
