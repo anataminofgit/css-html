@@ -93,87 +93,96 @@
     </div>
     <main>
         <div class="contact">
-            <div class="col">
-                <button id="contact-btn">צור קשר</button>
-            </div>
- 
-            <div class="col">
-                <div><a href=""> עמוד הבית</a>
-                    > צור קשר
+            <div class="row first-row">
+                <div class="col-1">
+                    <button id="contact-btn">צור קשר</button>
                 </div>
-                <h1 class="title">צור קשר</h1>
-                <section class="middle">
-                    <h2>צור קשר</h2>
-                    <p>ליצירת קשר עם קשרי לקוחות אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם :</p>
-                    <p>* השדות המסומנים בכוכבית (*) הינם שדות חובה
-                    </p>
-                    <form>
-                        <div class="row">
-                            <div class="col-1">
-                                <label for="fname">* שם פרטי: </label>
-                            </div>
-                            <div class="col-2">
-                                <input id="fname" type="text" placeholder="Enter your first name" maxlength="50"
-                                    name="fname">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-1">
-                                <label for="fname">* שם משפחה</label>
-                            </div>
-                            <div class="col-2">
-                                <input id="fname" type="text" placeholder="Enter your first name" maxlength="50"
-                                    name="fname">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-1">
-                                <label for="fname">* טלפון</label>
-                            </div>
-                            <div class="col-2">
-                                <input id="fname" type="text" placeholder="Enter your first name" maxlength="50"
-                                    name="fname">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-1">
-                                <label for="fname">* E-mail</label>
-                            </div>
-                            <div class="col-2">
-                                <input id="fname" type="text" placeholder="Enter your first name" maxlength="50"
-                                    name="fname">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <textarea id="form-textarea" cols="30" rows="10"></textarea>
-                        </div>
-                        <button id="send">שלח</button>
-                    </form>
-                </section>
+                <div class="col-2">
+                    <div><a href=""> עמוד הבית</a>
+                        > צור קשר
+                    </div>
+                    <h1 class="title">צור קשר</h1>
+                </div>
+                <div class="col-3">
 
-
+                </div>
             </div>
 
-            <div class="col">
-                <section class="left">
-                    <h2>פרטי יצירת קשר</h2>
-                    <p>פז חברת נפט בע"מ</p>
-                    <p>* השדות המסומנים בכוכבית (*) הינם שדות חובה
-                    <p>יורו פארק, בניין הולנד</p>
-                    <p>קיבוץ יקום 60972</p>
-                    <p>טל. שירות לקוחות 1-800-774-774</p>
-                    <p>פקס.09-8641714</p>
-                </section>
-                <section class="left-bottom">
-                    <h2>עוד בפז</h2>
-                    <p>ליצירת קשר עם דוברות פז</p>
-                    <a href="#">לחצו כאן>></a>
-                    <p>רוצים לעבוד בפז?</p>
-                    <a href="#">לחצו כאן>></a>
-                </section>
+            <div class="row second-row">
+                <div class="col-1">
+                </div>
+                <div class="col-2">
+                    <section class="middle">
+                        <h2>צור קשר</h2>
+                        <p>ליצירת קשר עם קשרי לקוחות אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם :</p>
+                        <p>* השדות המסומנים בכוכבית (*) הינם שדות חובה
+                        </p>
 
+                        <form>
+                            <div class="row">
+                                <div class="col-label">
+                                    <label for="fname">* שם פרטי: </label>
+                                </div>
+                                <div class="col-input">
+                                    <input id="fname" type="text"  maxlength="50"
+                                        name="fname">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-label">
+                                    <label for="lname">* שם משפחה</label>
+                                </div>
+                                <div class="col-input">
+                                    <input id="lname" type="text" maxlength="50"
+                                        name="lname">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-label">
+                                    <label for="phone">* טלפון</label>
+                                </div>
+                                <div class="col-input">
+                                    <input id="phone" type="text" maxlength="50"
+                                        name="phone">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-label">
+                                    <label for="email">* E-mail</label>
+                                </div>
+                                <div class="col-input">
+                                    <input id="email" type="email" maxlength="50"
+                                        name="fname">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <textarea id="form-textarea" cols="30" rows="10"></textarea>
+                            </div>
+                            <button id="send">שלח</button>
+                        </form>
+                    </section>
+                </div>
+                <div class="col-3">
+                    <section class="left-up">
+                        <h2>פרטי יצירת קשר</h2>
+                        <p>פז חברת נפט בע"מ</p>
+                        <p>* השדות המסומנים בכוכבית (*) הינם שדות חובה
+                        <p>יורו פארק, בניין הולנד</p>
+                        <p>קיבוץ יקום 60972</p>
+                        <p>טל. שירות לקוחות 1-800-774-774</p>
+                        <p>פקס.09-8641714</p>
+                    </section>
+                    <section class="left-bottom">
+                        <h2>עוד בפז</h2>
+                        <p>ליצירת קשר עם דוברות פז</p>
+                        <a href="#">לחצו כאן>></a>
+                        <p>רוצים לעבוד בפז?</p>
+                        <a href="#">לחצו כאן>></a>
+                    </section>
+                </div>
             </div>
-        </div>
+
+
     </main>
     <footer>
         <div class="footer-links">
