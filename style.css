@@ -326,7 +326,6 @@ footer {
 
 .contact .row {
     display: flex;
-    /* margin: 32px 0 0 0; */
     justify-content: space-between;
 }
 
@@ -342,28 +341,28 @@ footer {
 
 .contact .col-3 {
     width: 292px;
-    /* height: 377px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-#contact-btn {
+.sidebar-btn {
     border: 1px;
     width: 100%;
     margin-right: 4px;
     height: 36px;
-    background-image: linear-gradient(to bottom, #ffffff, #fafafa, #f5f5f5, #f1f1f1, #ececec);
-    box-shadow: 2px 6px #E0E0E0;
-    border-top: 1px #F5F5F5 solid;
 }
 
-#contact-btn a {
+.sidebar-btn {
+    background-image: url('./images/side_menu_sprite');
+
+}
+.sidebar-btn a {
     color: black;
     text-decoration: none;
 }
 
-#contact-btn:hover a {
+.sidebar-btn:hover a {
     color: blue;
     text-decoration: underline;
 }
@@ -381,7 +380,6 @@ footer {
     color: gray;
     font-size: 16px;
     display: block;
-    /* border-bottom: gray; */
     border-bottom: gray solid 1px;
     padding-bottom: 10px;
 }
@@ -400,6 +398,7 @@ footer {
 
 .contact p, .contact label {
     font-size: 12px;
+    margin: 5px;
 }
 
 .contact section>p:nth-child(2) {
@@ -436,6 +435,11 @@ form .row {
     font-size: 14px;
 }
 
-.contact section.left-bottom {
-    margin-top: 0;
+.contact section.left-bottom a , .contact section.left-bottom  {
+    font-size: 12px;
+
+}
+
+section.left-up, section.left-bottom {
+    height: 175px;
 }
