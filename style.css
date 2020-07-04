@@ -313,6 +313,12 @@ footer {
     display: inline-block;
 }
 
+.footer-links>a:hover{
+    color: blue;
+    text-decoration: underline;
+
+}
+
 .footer-links>a:last-child {
     color: red;
     border: 0;
