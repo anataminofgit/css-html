@@ -168,6 +168,7 @@ main>.row {
     border-bottom: 1px white solid;
 }
 
+
 .dropdown-content a:hover {
     background-color: lightgray;
 }
@@ -190,6 +191,7 @@ main>.row {
     position: absolute;
     min-width: 100%;
     top: 100%;
+    right:20px;
     /* border-bottom: 1px white solid; */
 }
 
