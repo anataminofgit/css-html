@@ -268,6 +268,10 @@ ul>li>a:hover, div.dropdown-content>a:hover {
     margin: auto auto auto 3px;
 }
 
+.more-yellow>a.align-right {
+    flex-grow: 1;
+}
+
 .more .pic-more {
     background-image: url('./images/read_more_white.png');
     height: 9px;
@@ -282,21 +286,14 @@ ul>li>a:hover, div.dropdown-content>a:hover {
     margin-top: 3px;
 }
 
-.more:hover .pic-more {
+.more:hover .pic-more , .more-yellow:hover .pic-more{
     background-image: url('./images/read_more_blue.png');
 }
 
-.more-yellow:hover .pic-more {
-    background-image: url('./images/read_more_blue.png');
-}
-
-.more:hover a {
+.more:hover a, .more-yellow:hover a {
     color: blue;
 }
 
-.more-yellow:hover a {
-    color: blue;
-}
 
 .more, .more-yellow {
     display: flex;
