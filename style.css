@@ -136,6 +136,7 @@ main>.row {
     width: 17px;
     height: 15px;
     background: url("./images/menu_home.png") 17px 0;
+    margin-left: 10px;
 }
 
 .header-menu {
@@ -178,6 +179,7 @@ main>.row {
     display: inline-block;
     background-image: linear-gradient(to bottom, rgb(144,144,144) 10%, rgb(190,190,190));
     border: 0;
+    vertical-align: top;
 }
 
 .dropdown-content a {
