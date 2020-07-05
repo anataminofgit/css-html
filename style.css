@@ -273,6 +273,7 @@ ul>li>a:hover, div.dropdown-content>a:hover {
     border: 0;
     padding: 8px 8px 8px 8px;
     margin: 0 8px 0 0;
+    opacity: 0.85;
 }
 
 .more>a {
