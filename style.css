@@ -21,7 +21,6 @@ li {
     white-space: nowrap;
     width: auto;
     background-image: linear-gradient(to bottom, rgb(144,144,144) 20%, rgb(190,190,190));
-    /* padding-bottom: 15px; */
 }
 
 h3 {
@@ -152,7 +151,6 @@ main>.row {
     flex-direction: row;
     position: relative;
     /* background-image: linear-gradient(to bottom, rgb(144,144,144) 10%,rgb(190,190,190)); */
-    /* background-color: #909090; */
 }
 
 .separator {
@@ -177,7 +175,6 @@ main>.row {
     /* border-left: white 1px solid; */
     font-weight: bold;
     padding: 0 15px 16px 15px;
-    /* vertical-align: top; */
     display: inline-block;
     background-image: linear-gradient(to bottom, rgb(144,144,144) 10%, rgb(190,190,190));
     border: 0;
@@ -320,6 +317,7 @@ ul>li>a:hover, div.dropdown-content>a:hover {
 
 /* Second line in main */
 
+
 .footer-links {
     background-color: gray;
     font-size: 14px;
@@ -338,10 +336,11 @@ footer {
 .footer-links>a {
     color: white;
     text-decoration: none;
-    border-left: white 2px solid;
+    border-right: white 2px solid;
     margin: 20px 0 5px 0;
-    padding: 0 2px 0 5px;
+    padding: 0 5px 0 2px;
     display: inline-block;
+    vertical-align: middle;
 }
 
 .footer-links>a:hover {
@@ -351,11 +350,11 @@ footer {
 
 .footer-links>a:last-child {
     color: red;
-    border: 0;
+    /* border: 0; */
 }
 
-.footer-links>a:last-child {
-    border: left 0;
+.footer-links>a:first-child {
+    border-right: 0;
 }
 
 /* contact form */
