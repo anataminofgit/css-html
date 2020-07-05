@@ -187,16 +187,23 @@ main>.row {
     padding: 10px;
     border-bottom: 1px white solid;
 }
-
+/* 
 .dropdown-content a:hover {
     background-color: lightgray;
+} */
+
+.dropdown-content>a:hover{
+    background-color: lightgray;
+
 }
 
-
+.dropdown-content> a:nth-child(1):hover {
+    background-color: lightgray;
+    background-image: none;
+}
 
 .dropdown-content> a:nth-child(1) {
     background-image: linear-gradient(to top, rgb(144,144,144) 60%, rgb(190,190,190));
-
 }
 .dropdown:last-child>a {
     border: 0;
@@ -218,6 +225,7 @@ ul>li>a:hover, div.dropdown-content>a:hover {
     color: blue;
     text-decoration: underline;
 }
+
 
 .logo {
     position: absolute;
