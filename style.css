@@ -187,18 +187,14 @@ main>.row {
     padding: 10px;
     border-bottom: 1px white solid;
 }
-/* 
-.dropdown-content a:hover {
-    background-color: lightgray;
-} */
 
 .dropdown-content>a:hover{
-    background-color: lightgray;
+    background-color:rgb(190,190,190);
 
 }
 
 .dropdown-content> a:nth-child(1):hover {
-    background-color: lightgray;
+    background-color:rgb(190,190,190);
     background-image: none;
 }
 
