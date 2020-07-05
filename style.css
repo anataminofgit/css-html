@@ -132,6 +132,12 @@ main>.row {
 
 /* menu */
 
+#pic-home {
+    width: 17px;
+    height: 15px;
+    background: url("./images/menu_home.png") 17px 0;
+  }
+
 .header-menu {
     margin-top: 29px;
     margin-right: 150px;
@@ -471,13 +477,3 @@ section.left-up, section.left-bottom {
     display: none;
   }
   
-  /* input:invalid form > div:nth-child(4) > div.col-label > div{
-    border-color:  purple;
-    outline-color: purple;
-    border: 1px solid;
-
-  } */
-
-  input:invalid input::after{
-    content: "mistake";
-  }
